@@ -7,29 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A09F42BE2B7B998D0013BFCB /* SwiftfulToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09F42BD2B7B998D0013BFCB /* SwiftfulToDoApp.swift */; };
-		A09F42C22B7B998E0013BFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09F42C12B7B998E0013BFCB /* Assets.xcassets */; };
-		A09F42C62B7B998E0013BFCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09F42C52B7B998E0013BFCB /* Preview Assets.xcassets */; };
-		A09F42CE2B7B9BC60013BFCB /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09F42CD2B7B9BC60013BFCB /* ListView.swift */; };
-		A09F42D02B7BB6310013BFCB /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09F42CF2B7BB6310013BFCB /* ListRowView.swift */; };
-		A09F42D22B7BBB750013BFCB /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09F42D12B7BBB750013BFCB /* AddView.swift */; };
-		A09F42D72B7BBFB40013BFCB /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09F42D62B7BBFB40013BFCB /* ItemModel.swift */; };
+		A06C01CD2B7B644500ADAF5A /* BasicToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C01CC2B7B644500ADAF5A /* BasicToDoApp.swift */; };
+		A06C01CF2B7B644500ADAF5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C01CE2B7B644500ADAF5A /* ContentView.swift */; };
+		A06C01D12B7B644600ADAF5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06C01D02B7B644600ADAF5A /* Assets.xcassets */; };
+		A06C01D52B7B644600ADAF5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06C01D42B7B644600ADAF5A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A09F42BA2B7B998D0013BFCB /* SwiftfulToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A09F42BD2B7B998D0013BFCB /* SwiftfulToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulToDoApp.swift; sourceTree = "<group>"; };
-		A09F42C12B7B998E0013BFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A09F42C32B7B998E0013BFCB /* SwiftfulToDo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftfulToDo.entitlements; sourceTree = "<group>"; };
-		A09F42C52B7B998E0013BFCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A09F42CD2B7B9BC60013BFCB /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		A09F42CF2B7BB6310013BFCB /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
-		A09F42D12B7BBB750013BFCB /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
-		A09F42D62B7BBFB40013BFCB /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		A06C01C92B7B644500ADAF5A /* BasicToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06C01CC2B7B644500ADAF5A /* BasicToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicToDoApp.swift; sourceTree = "<group>"; };
+		A06C01CE2B7B644500ADAF5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A06C01D02B7B644600ADAF5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A06C01D22B7B644600ADAF5A /* BasicToDo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BasicToDo.entitlements; sourceTree = "<group>"; };
+		A06C01D42B7B644600ADAF5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A09F42B72B7B998D0013BFCB /* Frameworks */ = {
+		A06C01C62B7B644500ADAF5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,97 +33,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A09F42B12B7B998D0013BFCB = {
+		A06C01C02B7B644500ADAF5A = {
 			isa = PBXGroup;
 			children = (
-				A09F42BC2B7B998D0013BFCB /* SwiftfulToDo */,
-				A09F42BB2B7B998D0013BFCB /* Products */,
+				A06C01CB2B7B644500ADAF5A /* BasicToDo */,
+				A06C01CA2B7B644500ADAF5A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A09F42BB2B7B998D0013BFCB /* Products */ = {
+		A06C01CA2B7B644500ADAF5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A09F42BA2B7B998D0013BFCB /* SwiftfulToDo.app */,
+				A06C01C92B7B644500ADAF5A /* BasicToDo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A09F42BC2B7B998D0013BFCB /* SwiftfulToDo */ = {
+		A06C01CB2B7B644500ADAF5A /* BasicToDo */ = {
 			isa = PBXGroup;
 			children = (
-				A09F42BD2B7B998D0013BFCB /* SwiftfulToDoApp.swift */,
-				A09F42D42B7BBF850013BFCB /* Models */,
-				A09F42CC2B7B9B710013BFCB /* Views */,
-				A09F42C12B7B998E0013BFCB /* Assets.xcassets */,
-				A09F42C32B7B998E0013BFCB /* SwiftfulToDo.entitlements */,
-				A09F42C42B7B998E0013BFCB /* Preview Content */,
+				A06C01CC2B7B644500ADAF5A /* BasicToDoApp.swift */,
+				A06C01CE2B7B644500ADAF5A /* ContentView.swift */,
+				A06C01D02B7B644600ADAF5A /* Assets.xcassets */,
+				A06C01D22B7B644600ADAF5A /* BasicToDo.entitlements */,
+				A06C01D32B7B644600ADAF5A /* Preview Content */,
 			);
-			path = SwiftfulToDo;
+			path = BasicToDo;
 			sourceTree = "<group>";
 		};
-		A09F42C42B7B998E0013BFCB /* Preview Content */ = {
+		A06C01D32B7B644600ADAF5A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A09F42C52B7B998E0013BFCB /* Preview Assets.xcassets */,
+				A06C01D42B7B644600ADAF5A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A09F42CC2B7B9B710013BFCB /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				A09F42CD2B7B9BC60013BFCB /* ListView.swift */,
-				A09F42D12B7BBB750013BFCB /* AddView.swift */,
-				A09F42CF2B7BB6310013BFCB /* ListRowView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		A09F42D42B7BBF850013BFCB /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				A09F42D62B7BBFB40013BFCB /* ItemModel.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A09F42B92B7B998D0013BFCB /* SwiftfulToDo */ = {
+		A06C01C82B7B644500ADAF5A /* BasicToDo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A09F42C92B7B998E0013BFCB /* Build configuration list for PBXNativeTarget "SwiftfulToDo" */;
+			buildConfigurationList = A06C01D82B7B644600ADAF5A /* Build configuration list for PBXNativeTarget "BasicToDo" */;
 			buildPhases = (
-				A09F42B62B7B998D0013BFCB /* Sources */,
-				A09F42B72B7B998D0013BFCB /* Frameworks */,
-				A09F42B82B7B998D0013BFCB /* Resources */,
+				A06C01C52B7B644500ADAF5A /* Sources */,
+				A06C01C62B7B644500ADAF5A /* Frameworks */,
+				A06C01C72B7B644500ADAF5A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftfulToDo;
-			productName = SwiftfulToDo;
-			productReference = A09F42BA2B7B998D0013BFCB /* SwiftfulToDo.app */;
+			name = BasicToDo;
+			productName = BasicToDo;
+			productReference = A06C01C92B7B644500ADAF5A /* BasicToDo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A09F42B22B7B998D0013BFCB /* Project object */ = {
+		A06C01C12B7B644500ADAF5A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					A09F42B92B7B998D0013BFCB = {
+					A06C01C82B7B644500ADAF5A = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = A09F42B52B7B998D0013BFCB /* Build configuration list for PBXProject "SwiftfulToDo" */;
+			buildConfigurationList = A06C01C42B7B644500ADAF5A /* Build configuration list for PBXProject "BasicToDo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,45 +112,42 @@
 				en,
 				Base,
 			);
-			mainGroup = A09F42B12B7B998D0013BFCB;
-			productRefGroup = A09F42BB2B7B998D0013BFCB /* Products */;
+			mainGroup = A06C01C02B7B644500ADAF5A;
+			productRefGroup = A06C01CA2B7B644500ADAF5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A09F42B92B7B998D0013BFCB /* SwiftfulToDo */,
+				A06C01C82B7B644500ADAF5A /* BasicToDo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A09F42B82B7B998D0013BFCB /* Resources */ = {
+		A06C01C72B7B644500ADAF5A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A09F42C62B7B998E0013BFCB /* Preview Assets.xcassets in Resources */,
-				A09F42C22B7B998E0013BFCB /* Assets.xcassets in Resources */,
+				A06C01D52B7B644600ADAF5A /* Preview Assets.xcassets in Resources */,
+				A06C01D12B7B644600ADAF5A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A09F42B62B7B998D0013BFCB /* Sources */ = {
+		A06C01C52B7B644500ADAF5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A09F42D72B7BBFB40013BFCB /* ItemModel.swift in Sources */,
-				A09F42D22B7BBB750013BFCB /* AddView.swift in Sources */,
-				A09F42BE2B7B998D0013BFCB /* SwiftfulToDoApp.swift in Sources */,
-				A09F42CE2B7B9BC60013BFCB /* ListView.swift in Sources */,
-				A09F42D02B7BB6310013BFCB /* ListRowView.swift in Sources */,
+				A06C01CF2B7B644500ADAF5A /* ContentView.swift in Sources */,
+				A06C01CD2B7B644500ADAF5A /* BasicToDoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A09F42C72B7B998E0013BFCB /* Debug */ = {
+		A06C01D62B7B644600ADAF5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		A09F42C82B7B998E0013BFCB /* Release */ = {
+		A06C01D72B7B644600ADAF5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,15 +261,15 @@
 			};
 			name = Release;
 		};
-		A09F42CA2B7B998E0013BFCB /* Debug */ = {
+		A06C01D92B7B644600ADAF5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SwiftfulToDo/SwiftfulToDo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BasicToDo/BasicToDo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulToDo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BasicToDo/Preview Content\"";
 				DEVELOPMENT_TEAM = AZKRWHCS98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -316,7 +288,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.SwiftfulToDo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.BasicToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -327,15 +299,15 @@
 			};
 			name = Debug;
 		};
-		A09F42CB2B7B998E0013BFCB /* Release */ = {
+		A06C01DA2B7B644600ADAF5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SwiftfulToDo/SwiftfulToDo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BasicToDo/BasicToDo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulToDo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BasicToDo/Preview Content\"";
 				DEVELOPMENT_TEAM = AZKRWHCS98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -354,7 +326,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.SwiftfulToDo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.BasicToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -368,25 +340,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A09F42B52B7B998D0013BFCB /* Build configuration list for PBXProject "SwiftfulToDo" */ = {
+		A06C01C42B7B644500ADAF5A /* Build configuration list for PBXProject "BasicToDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A09F42C72B7B998E0013BFCB /* Debug */,
-				A09F42C82B7B998E0013BFCB /* Release */,
+				A06C01D62B7B644600ADAF5A /* Debug */,
+				A06C01D72B7B644600ADAF5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A09F42C92B7B998E0013BFCB /* Build configuration list for PBXNativeTarget "SwiftfulToDo" */ = {
+		A06C01D82B7B644600ADAF5A /* Build configuration list for PBXNativeTarget "BasicToDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A09F42CA2B7B998E0013BFCB /* Debug */,
-				A09F42CB2B7B998E0013BFCB /* Release */,
+				A06C01D92B7B644600ADAF5A /* Debug */,
+				A06C01DA2B7B644600ADAF5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A09F42B22B7B998D0013BFCB /* Project object */;
+	rootObject = A06C01C12B7B644500ADAF5A /* Project object */;
 }
