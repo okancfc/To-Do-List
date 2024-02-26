@@ -23,6 +23,9 @@ struct ContentView: View {
                 .fontWeight(.bold)
                 .padding()
             
+            
+            
+            
             TextField("Enter your task..", text: $text)
                 .frame(maxWidth: .infinity)
                 .padding()
